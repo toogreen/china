@@ -24,7 +24,7 @@
 </head>
 <body>
 	<div class="header">
-		<img id="logo" src="img/logo.svg">
+		<img id="lesavoir" src="img/lesavoir.svg">
 	</div>
 	<div class="container">
 		
