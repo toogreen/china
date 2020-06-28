@@ -1,0 +1,215 @@
+@media (min-width: 768px) {
+  .grid {
+  	text-align: center;
+	width: 100%;
+	margin: auto;
+	margin-top: 40px;
+    display: grid;
+    grid-template-columns: 40% 1fr 30%;
+	grid-gap:  20px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .no-mobile {
+  	display: none;
+  }
+}
+
+
+
+
+body{
+	margin: 0;
+}
+
+h1, p {
+	font-family: 'Merriweather', serif;
+}
+
+h1{
+	font-weight: bold;
+	text-align: left;
+}
+
+h4{
+	text-align: left;
+	text-transform: uppercase;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding-bottom: 15px;
+}
+
+p{
+	text-align: left;
+	font-size: 14px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+img{
+	width: 100%;
+}
+
+
+.header{
+	width: 100%;
+	text-align: center;
+	padding: 40px 0;
+	margin: auto;
+}
+
+.ad {
+	margin-top: 20px;
+}
+
+#lesavoir{
+	width: 240px;
+}
+
+.container{
+	width: 90%;
+	text-align: center;
+	margin: auto;
+	border-top: solid 1px black;
+}
+
+.left-column .card1 {
+	border-top: solid 1px black;
+	padding-top: 2px;
+}
+
+.left-column .card1:hover {
+	border-top: solid 3px black;
+	filter: sepia(100%);
+	padding-top: 0px;
+}
+
+
+.left-column .card1 img {
+	margin-top: 15px;
+}
+
+.left-column h1{
+	font-size: 18px;
+}
+
+
+.card2 {
+	border-top: solid 1px black;
+	margin-top: 70px;
+	margin-bottom: 20px;
+
+}
+
+.card2:hover {
+	border-top: solid 3px black;
+	margin-top: 68px;
+	margin-bottom: 20px;
+
+}
+
+.left-column .card2 img{
+	margin-top: 20px;
+	margin-right: 20px;
+	width: 40%;
+	float: left;
+}
+
+.left-column .card2 h1{
+	margin-top: 20px;
+}
+
+
+
+.middle-column .card1 {
+	border-top: solid 1px orange;
+	background-color: rgb(240,240,240,1);
+	padding: 19px 17px 17px 17px;
+	margin-bottom: 20px;
+}
+
+.middle-column .card1 h1{
+	font-size: 24px;
+}
+
+.middle-column .card1 h4{
+	color: orange;
+}
+
+.middle-column .card1:hover {
+	border-top: solid 3px orange;
+	padding-top: 17px
+}
+
+.middle-column .card2 h1{
+	font-size: 16px;
+}
+
+
+
+
+
+.right-column{
+	border-top: solid 1px turquoise;
+	background-color: rgb(240,240,240,1);
+	padding: 17px;
+	padding-top: 19px;
+}
+
+.right-column:hover{
+	border-top: solid 3px turquoise;
+	background-color: rgb(240,240,240,1);
+	padding: 17px;
+	padding-top: 17px;
+	filter: sepia(310deg);
+}
+
+
+.right-column h1{
+	font-size: 18px;
+}
+
+.right-column h4{
+	color: turquoise;
+}
+
+
+.right-column .card2 h4{
+	margin-top: 20px;
+	color: black;
+}
+
+
+.right-column img{
+	max-width: 100%;
+}
+
+
+.footer{
+	text-align: center;
+	left: 0;
+	bottom: 0;
+	width:100%;
+	padding: 20px 0 20px; 0;
+	/*background-color: #404042;*/
+	background-color: black;
+	color: white;
+	margin: 0;
+}
+
+.footer p{
+	text-align: center;
+}
+
+.footer a{
+	color: white;
+	text-decoration: underline;
+}
+
