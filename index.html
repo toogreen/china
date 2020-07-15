@@ -28,6 +28,19 @@
 		<img id="logo" src="img/logo.svg">
 	</div>
 	<div class="container">
+	
+	<script>
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    var myObj = JSON.parse(this.responseText);
+    document.getElementById("title").innerHTML = myObj.title;
+    document.getElementById("desc").innerHTML = myObj.desc;
+  }
+};
+xmlhttp.open("GET", "news.txt", true);
+xmlhttp.send();
+</script>
 		
 
 		<!-- Bitcoin Ad -->
@@ -42,8 +55,8 @@
 				<a href="#">
 					<div class="card1">
 						<img src="img/news-covid-1.jpg">
-						<h1>Les leçons à tirer de 100 jours d'urgence sanitaire</h1>
-						<p>La pandémie a exposé au grand jour certaines failles du réseau de la santé.</p>			
+						<h1 id="title"></h1>
+						<p id=desc></p>			
 					</div>
 				</a>
 

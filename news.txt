@@ -1,0 +1,9 @@
+{
+    "title":"Les leçons à tirer de la fausse pandémie",
+    "desc":"La fausse pandémie a ouvert les yeux de bien du monde",
+    "pets":[
+        { "animal":"dog", "name":"Fido" },
+        { "animal":"cat", "name":"Felix" },
+        { "animal":"hamster", "name":"Lightning" }
+    ]
+}

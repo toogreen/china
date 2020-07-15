@@ -1,6 +1,7 @@
+
 <html>
 <head>
-	<title>Le Savoir</title>
+	<title>China Sucker</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
@@ -24,9 +25,21 @@
 </head>
 <body>
 	<div class="header">
-		<img id="lesavoir" src="img/lesavoir.svg">
+		<img id="logo" src="img/logo.svg">
 	</div>
 	<div class="container">
+	
+	<script>
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    var myObj = JSON.parse(this.responseText);
+    document.getElementById("demo").innerHTML = myObj.title;
+  }
+};
+xmlhttp.open("GET", "news.txt", true);
+xmlhttp.send();
+</script>
 		
 
 		<!-- Bitcoin Ad -->
@@ -41,7 +54,7 @@
 				<a href="#">
 					<div class="card1">
 						<img src="img/news-covid-1.jpg">
-						<h1>Les leçons à tirer de 100 jours d'urgence sanitaire</h1>
+						<h1 id="demo"></h1>
 						<p>La pandémie a exposé au grand jour certaines failles du réseau de la santé.</p>			
 					</div>
 				</a>
@@ -79,7 +92,7 @@
 				<a href="#">
 					<div class="card2">
 						<img src="img/news-left-card2.jpg">
-						<h1>Trump défie la pandémie pour un rassemblement électoral à Tulsa</h1>
+						<h1>Putin défie la pandémie pour un rassemblement électoral à Tulsa</h1>
 						<p>L’affluence a été bien moindre qu’espérée.</p>
 					</div>
 				</a>
