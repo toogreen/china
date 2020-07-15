@@ -69,8 +69,11 @@ img{
 	margin-top: 20px;
 }
 
-#lesavoir{
+#logo{
 	width: 240px;
+	/* box-shadow: 2px 2px red; */
+	-webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+	filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
 }
 
 .container{

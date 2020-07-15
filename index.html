@@ -28,19 +28,6 @@
 		<img id="logo" src="img/logo.svg">
 	</div>
 	<div class="container">
-	
-	<script>
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function() {
-  if (this.readyState == 4 && this.status == 200) {
-    var myObj = JSON.parse(this.responseText);
-    document.getElementById("title").innerHTML = myObj.title;
-    document.getElementById("desc").innerHTML = myObj.desc;
-  }
-};
-xmlhttp.open("GET", "news.txt", true);
-xmlhttp.send();
-</script>
 		
 
 		<!-- Bitcoin Ad -->
@@ -52,27 +39,27 @@ xmlhttp.send();
 			<!-- LEFT COLUMN -->
 			<div class="left-column">
 
-				<a href="#">
+				<a id="url1" href="#url1" target="_blank">
 					<div class="card1">
 						<img src="img/news-covid-1.jpg">
-						<h1 id="title"></h1>
-						<p id=desc></p>			
+						<h1 id="title1"></h1>
+						<p id="desc1"></p>			
 					</div>
 				</a>
 
-				<a href="#">
+				<a id="url2" href="#url2" target="_blank">
 					<div class="card2">
-						<img src="img/news-left-card2.jpg">
-						<h1>Les leçons à tirer de 100 jours d'urgence sanitaire</h1>
-						<p>La pandémie a exposé au grand jour certaines failles du réseau de la santé.</p>			
+						<img src="img/img2.jpg">
+						<h1 id="title2"></h1>
+						<p id="desc2"></p>			
 					</div>	
 				</a>
 
-				<a href="#">
+				<a id="url3" href="#url3" target="_blank">
 					<div class="card2">
-						<img src="img/news-left-card3.jpg">
-						<h1>Les leçons à tirer de 100 jours d'urgence sanitaire</h1>
-						<p>La pandémie a exposé au grand jour certaines failles du réseau de la santé.</p>			
+						<img src="img/img3.jpg">
+						<h1 id="title3"></h1>
+						<p id="desc3"></p>			
 					</div>	
 				</a>
 			
@@ -81,7 +68,7 @@ xmlhttp.send();
 
 			<!-- MIDDLE COLUMN -->
 			<div class="middle-column">
-				<a href="#">
+				<a id="url1">
 					<div class="card1">
 						<h4>Distanciation sociale</h4>
 						<img src="img/news-trump-1.jpg">
@@ -90,7 +77,7 @@ xmlhttp.send();
 					</div>
 				</a>
 
-				<a href="#">
+				<a id="url2" href="">
 					<div class="card2">
 						<img src="img/news-left-card2.jpg">
 						<h1>Putin défie la pandémie pour un rassemblement électoral à Tulsa</h1>
@@ -98,7 +85,7 @@ xmlhttp.send();
 					</div>
 				</a>
 
-				<a href="#">
+				<a id="url3" href="">
 					<div class="card2">
 						<h1>Trump défie la pandémie pour un rassemblement électoral à Tulsa</h1>
 						<p>L’affluence a été bien moindre qu’espérée.</p>
@@ -136,4 +123,24 @@ xmlhttp.send();
 		<p>China Sucker © <a href="https://www.toogreen.ca">toogreen</a> 2020</p>
 	</div>
 </body>
+
+<script>
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    var myObj = JSON.parse(this.responseText);
+    document.getElementById("title1").innerHTML = myObj.news.title1;
+    document.getElementById("desc1").innerHTML = myObj.news.desc1;
+    document.getElementById("url1").href = myObj.news.url1;
+    document.getElementById("title2").innerHTML = myObj.news.title2;
+    document.getElementById("desc2").innerHTML = myObj.news.desc2;
+    document.getElementById("url2").href = myObj.news.url2;
+    document.getElementById("title3").innerHTML = myObj.news.title3;
+    document.getElementById("desc3").innerHTML = myObj.news.desc3;
+    document.getElementById("url3").href = myObj.news.url3;
+  }
+};
+xmlhttp.open("GET", "news.txt", true);
+xmlhttp.send();
+</script>
 </html>
