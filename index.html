@@ -41,56 +41,56 @@
 
 				<a id="url1" href="#url1" target="_blank">
 					<div class="card1">
-						<img src="img/news-covid-1.jpg">
+						<img id="img1" src="img/news-covid-1.jpg">
 						<h1 id="title1"></h1>
 						<p id="desc1"></p>			
 					</div>
 				</a>
 
-				<a id="url2" href="#url2" target="_blank">
+				<a id="url4" href="#url4" target="_blank">
 					<div class="card2">
-						<img src="img/img2.jpg">
-						<h1 id="title2"></h1>
-						<p id="desc2"></p>			
+						<img id="img4" src="img/img4.jpg">
+						<h1 id="title4"></h1>
+						<p id="desc4"></p>			
 					</div>	
 				</a>
 
-				<a id="url3" href="#url3" target="_blank">
+				<!-- <a id="url3" href="#url3" target="_blank">
 					<div class="card2">
 						<img src="img/img3.jpg">
 						<h1 id="title3"></h1>
 						<p id="desc3"></p>			
 					</div>	
-				</a>
+				</a>-->
 			
 			</div>
 
 
 			<!-- MIDDLE COLUMN -->
 			<div class="middle-column">
-				<a id="url1">
+				<a id="url2" target="_blank">
 					<div class="card1">
-						<h4>Distanciation sociale</h4>
-						<img src="img/news-trump-1.jpg">
-						<h1>Trump défie la pandémie pour un rassemblement électoral à Tulsa</h1>
-						<p>L’affluence a été bien moindre qu’espérée.</p>
+						<h4>Hollywood</h4>
+						<img id="img2" src="img/img2.jpg">
+						<h1 id="title2"></h1>
+						<p id="desc2"></p>
 					</div>
 				</a>
 
-				<a id="url2" href="">
+				<a id="url3" href="" target="_blank">
 					<div class="card2">
-						<img src="img/news-left-card2.jpg">
-						<h1>Putin défie la pandémie pour un rassemblement électoral à Tulsa</h1>
-						<p>L’affluence a été bien moindre qu’espérée.</p>
+						<img id="img3" src="img/img3.jpg">
+						<h1 id="title3">Putin défie la pandémie pour un rassemblement électoral à Tulsa</h1>
+						<p id="desc3">L’affluence a été bien moindre qu’espérée.</p>
 					</div>
 				</a>
 
-				<a id="url3" href="">
+				<!-- <a id="url3" href="">
 					<div class="card2">
 						<h1>Trump défie la pandémie pour un rassemblement électoral à Tulsa</h1>
 						<p>L’affluence a été bien moindre qu’espérée.</p>
 					</div>
-				</a>
+				</a>-->
 			</div>
 
 			<!-- RIGHT COLUMN -->
@@ -99,18 +99,19 @@
 				<a href="#">
 					<div>
 						<h4>Opinion</h4>
-						<img src="img/news-caricature-1.jpg">
-						<h1>Le coup de crayon du 20 juin 2020</h1>					
+						<img src="img/caricature.jpg">
+						<h1></h1>					
 					</div>
 				</a>
 
-				<a href="#">
+				<!-- <a id="url3" href="#">
 					<div class="card2">
 						<h4>Idées</h4>
-						<h1>Le patrimoine national, pour mieux s’aimer</h1>
-						<p>Nos ancêtres nous ont laissé un fabuleux territoire.</p>
+						<img src="img/img3.jpg">
+						<h1 id="title3">Le patrimoine national, pour mieux s’aimer</h1>
+						<p id="desc3">Nos ancêtres nous ont laissé un fabuleux territoire.</p>
 					</div>
-				</a>
+				</a>-->
 	
 			</div>
 		</div>
@@ -129,15 +130,25 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
     var myObj = JSON.parse(this.responseText);
+    document.getElementById("img1").src = myObj.news.img1;
     document.getElementById("title1").innerHTML = myObj.news.title1;
     document.getElementById("desc1").innerHTML = myObj.news.desc1;
     document.getElementById("url1").href = myObj.news.url1;
+    
+    document.getElementById("img2").src = myObj.news.img2;
     document.getElementById("title2").innerHTML = myObj.news.title2;
     document.getElementById("desc2").innerHTML = myObj.news.desc2;
     document.getElementById("url2").href = myObj.news.url2;
+    
+    document.getElementById("img3").src = myObj.news.img3;
     document.getElementById("title3").innerHTML = myObj.news.title3;
     document.getElementById("desc3").innerHTML = myObj.news.desc3;
     document.getElementById("url3").href = myObj.news.url3;
+    
+    document.getElementById("img4").src = myObj.news.img4;
+    document.getElementById("title4").innerHTML = myObj.news.title4;
+    document.getElementById("desc4").innerHTML = myObj.news.desc4;
+    document.getElementById("url4").href = myObj.news.url4;
   }
 };
 xmlhttp.open("GET", "news.txt", true);

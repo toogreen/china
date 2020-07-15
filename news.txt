@@ -1,6 +1,7 @@
 {"news":{
-	"img1":"img/img1.jpg", "title1":"The WHO obviously waited to make this a pandemic", "desc1":"It is quite obvious that the WHO waited so long to declare a pandemic because they did not want to hurt China's feelings...", "url1":"https://foreignpolicy.com/2020/05/27/who-health-china-coronavirus-tedros/",
+	"img1":"img/news-covid-1.jpg", "title1":"The WHO obviously waited to make this a pandemic", "desc1":"It is quite obvious that the WHO waited so long to declare a pandemic because they did not want to hurt China's feelings...", "url1":"https://foreignpolicy.com/2020/05/27/who-health-china-coronavirus-tedros/",
 	"img2":"img/img2.jpg", "title2":"Hollywood sucks China's dick", "desc2":"The new Top Gun movie has removed a Taiwanese flag just to please Xi Jinping. Suckers! Hollywood are a bunch of pedophiles who should be punished", "url2":"https://www.cnn.com/2019/07/22/media/top-gun-flags-intl-hnk/index.html",
-  	"img3":"img/img3.jpg", "title3":"Apple removed app from the App Store which was helping Hong Kong Protesters", "desc3":"In an obvious attempt to please the Chinese government, Apple has removed an app from their app store which was helping HK protesters organize", "url3":"https://www.theverge.com/2019/10/10/20907596/apple-hong-kong-protests-app-removed-china"
+  	"img3":"img/img3.jpg", "title3":"Apple removed app from the App Store which was helping Hong Kong Protesters", "desc3":"In an obvious attempt to please the Chinese government, Apple has removed an app from their app store which was helping HK protesters organize", "url3":"https://www.theverge.com/2019/10/10/20907596/apple-hong-kong-protests-app-removed-china",
+	"img4":"img/img4.jpg", "title4":"Houston Rockets Kissing China’s Ass", "desc4":"A star NBA general manager may lose his job for expressing American values.", "url4":"https://www.outsidethebeltway.com/houston-rockets-kissing-chinas-ass/"
  	}
 }
