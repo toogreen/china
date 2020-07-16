@@ -1,6 +1,6 @@
 {"news":{
 	"img1":"img/news-covid-1.jpg", 
-	"title1":"The WHO obviously was scared to declare the pandemic not to irritate China", 
+	"title1":"The WHO obviously was scared to declare a pandemic not to irritate China", 
 	"desc1":"It is indeed quite obvious that the WHO (World Health Organisation) waited so long to declare a pandemic because they did not want to hurt China's feelings...", 
 	"url1":"https://foreignpolicy.com/2020/05/27/who-health-china-coronavirus-tedros/",
 	
