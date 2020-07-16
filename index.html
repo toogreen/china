@@ -56,13 +56,13 @@
 					</div>	
 				</a>
 
-				<!-- <a id="url3" href="#url3" target="_blank">
+				<a id="url5" href="#url5" target="_blank">
 					<div class="card2">
-						<img src="img/img3.jpg">
-						<h1 id="title3"></h1>
-						<p id="desc3"></p>			
+						<img id="img5" src="img/img5.jpg">
+						<h1 id="title5"></h1>
+						<p id="desc5"></p>			
 					</div>	
-				</a>-->
+				</a>
 			
 			</div>
 
@@ -156,6 +156,11 @@ xmlhttp.onreadystatechange = function() {
     document.getElementById("title4").innerHTML = myObj.news.title4;
     document.getElementById("desc4").innerHTML = myObj.news.desc4;
     document.getElementById("url4").href = myObj.news.url4;
+    
+    document.getElementById("img5").src = myObj.news.img5;
+    document.getElementById("title5").innerHTML = myObj.news.title5;
+    document.getElementById("desc5").innerHTML = myObj.news.desc5;
+    document.getElementById("url5").href = myObj.news.url5;
   }
 };
 xmlhttp.open("GET", "news.txt", true);

@@ -17,6 +17,11 @@
 	"img4":"img/img4.jpg", 
 	"title4":"Houston Rockets Kissing China’s Ass", 
 	"desc4":"A star NBA general manager may lose his job for expressing American values.", 
-	"url4":"https://www.outsidethebeltway.com/houston-rockets-kissing-chinas-ass/"
+	"url4":"https://www.outsidethebeltway.com/houston-rockets-kissing-chinas-ass/",
+
+	"img5":"https://api.time.com/wp-content/uploads/2014/02/bing-chinese-censorship.jpg?w=800&quality=85",
+	"title5":"Disturbing Stuff Happens When You Use Bing for Chinese-Language Searches",
+	"desc5":"Shame on Microsoft who censors its own engine in China, which seems to also have consequences abroad as well..",
+	"url5":"https://time.com/6846/bing-censors-chinese-language-searches-us/"
  	}
 }
