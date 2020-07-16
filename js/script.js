@@ -1,3 +1,12 @@
+
+// Detect IE and if it's there, alert folks to get with the times
+if(navigator.userAgent.indexOf('MSIE')!==-1
+|| navigator.appVersion.indexOf('Trident/') > -1){
+   /* Microsoft Internet Explorer detected in. */
+   alert("Dude you are seriously still using Internet Exploder 11 or lower!?? My god, get with the times. This website is designed and optimized for MODERN and browsers respecting WEB STANDARDS therefore it probably won't look right on your piece of shit browser. Get Firefox or Chrome or something...!!!");
+}
+
+
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
