@@ -4,12 +4,12 @@
   "slogan":"Shaming Those Who Are Kissing the CCP's Ass",
 
   "news1":{
-  	"img":"img/news-covid-1.jpg", 
-  	"title":"The WHO obviously was scared to declare a pandemic not to irritate China", 
-  	"desc":"It is indeed quite obvious that the WHO (World Health Organisation) waited so long to declare a pandemic because they did not want to hurt China's feelings...", 
-  	"url":"https://foreignpolicy.com/2020/05/27/who-health-china-coronavirus-tedros/",
+    "img":"img/news-covid-1.jpg", 
+    "title":"The WHO obviously was scared to declare a pandemic not to irritate China", 
+    "desc":"It is indeed quite obvious that the WHO (World Health Organisation) waited so long to declare a pandemic because they did not want to hurt China's feelings...", 
+    "url":"https://foreignpolicy.com/2020/05/27/who-health-china-coronavirus-tedros/",
     "class":"card1"
- 	},
+  },
 
   "news2":{
     "img":"img/img2.jpg", 
