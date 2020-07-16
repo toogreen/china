@@ -24,6 +24,7 @@ xmlhttp.onreadystatechange = function() {
         document.getElementById(div).className = myObj[news].class;
     } // End of loop
 
+    // Below line displays how many items are in the JSON object in the place where the slogan is (for development purposes only)
     //document.getElementById("slogan").innerHTML = count;
 
   }
