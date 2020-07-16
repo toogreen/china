@@ -11,7 +11,7 @@
   	
 	"img3":"img/img3.jpg", 
 	"title3":"Apple removed app from the App Store which was helping Hong Kong Protesters", 
-	"desc3":"In an obvious attempt to please the Chinese government, Apple has removed an app from their app store which was helping HK protesters organize", 
+	"desc3":"In an obvious attempt to please the Chinese government, Apple has removed an app from their app store which was helping HK protesters organize their rallies and more.", 
 	"url3":"https://www.theverge.com/2019/10/10/20907596/apple-hong-kong-protests-app-removed-china",
 	
 	"img4":"img/img4.jpg", 
