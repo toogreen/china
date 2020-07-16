@@ -3,7 +3,7 @@
 if(navigator.userAgent.indexOf('MSIE')!==-1
 || navigator.appVersion.indexOf('Trident/') > -1){
    /* Microsoft Internet Explorer detected in. */
-   alert("Dude you are seriously still using Internet Exploder 11 or lower!?? My god, get with the times. This website is designed and optimized for MODERN and browsers respecting WEB STANDARDS therefore it probably won't look right on your piece of shit browser. Get Firefox or Chrome or something...!!!");
+   alert("Dude, are you seriously still using Internet Exploder 11 or lower!?? My god, get with the times. This website is designed and optimized for MODERN browsers that are respecting WEB STANDARDS. Therefore this website probably won't look right on your piece of shit out-of-date browser. Get Firefox or Chrome or something...!!!");
 }
 
 
