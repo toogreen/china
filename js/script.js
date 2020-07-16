@@ -16,10 +16,12 @@ xmlhttp.onreadystatechange = function() {
         var title = "title" + i;
         var desc = "desc" + i;
         var url = "url" + i;
+        var div = "div" + i;
         document.getElementById(img).src = myObj[news].img;
         document.getElementById(title).innerHTML = myObj[news].title;
         document.getElementById(desc).innerHTML = myObj[news].desc;
         document.getElementById(url).href = myObj[news].url;
+        document.getElementById(div).className = myObj[news].class;
     } // End of loop
 
     //document.getElementById("slogan").innerHTML = count;
