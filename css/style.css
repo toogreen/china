@@ -1,6 +1,6 @@
 @media (max-width: 899px) {
 
-		#logo{
+		#logo{ /* Short logo for mobiles */
 		background-image: url("../img/logo.svg");
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
@@ -28,7 +28,7 @@
 	grid-gap:  20px;
   }
 
-	#logo{
+	#logo{  /* Long logo for mobiles */
 		background-image: url("../img/logo-long.svg");
 		background-repeat: no-repeat;
 		background-size: 100% 100%; 
