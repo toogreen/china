@@ -91,14 +91,14 @@ img{
 }
 
 
-header{
+.header{
 	width: 100%;
 	text-align: center;
 	padding: 40px 0;
 	margin: auto;
 }
 
-header p{
+.header p{
 	text-align: center;
 	margin: auto;
 	font-size: 16px;
@@ -234,7 +234,7 @@ header p{
 }
 
 
-footer{
+.footer{
 	text-align: center;
 	left: 0;
 	bottom: 0;
@@ -246,11 +246,11 @@ footer{
 	margin: 0;
 }
 
-footer p{
+.footer p{
 	text-align: center;
 }
 
-footer a{
+.footer a{
 	color: white;
 	text-decoration: underline;
 }
