@@ -2,7 +2,6 @@
 
 		#logo{ /* Short logo for mobiles */
 		background-image: url("../img/logo.svg");
-		width: 100%;
 		height: 190px;
 	}
 }
@@ -21,7 +20,6 @@
 
 	#logo{  /* Long logo for mobiles */
 		background-image: url("../img/logo-long.svg");
-		width: 100%;
 		height: 90px;
 	}
 
@@ -94,6 +92,7 @@ img{
 	background-size: 100% 100%; 
 	-webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .2));
 	filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .2));
+	/*width: 100%;*/
 	margin: 0 auto;
 	margin-left: auto;
 	margin-right: auto;
